@@ -55,7 +55,10 @@ class Gadgets(object):
         C_OP    = 0
         C_SIZE  = 1
         C_ALIGN = 2
-        PREV_BYTES = 9 # Number of bytes prior to the gadget to store.
+        if arch & CS_MODE_64:
+            PREV_BYTES = 9  # Number of bytes prior to the gadget to store.
+        else:
+            PREV_BYTES = 5  # Number of bytes prior to the gadget to store.
         ret = []
         md = Cs(arch, mode)
         for gad in gadgets:
