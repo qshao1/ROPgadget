@@ -1,0 +1,9 @@
+Options().callPrecededGadgets(): Filtered out 218 gadgets.
+Gadgets information
+============================================================
+0x0000083d : add ebx, 0x17c3 ; add esp, 8 ; pop ebx ; ret
+0x000005b1 : add esp, 0x10 ; leave ; ret
+0x000005ff : add esp, 0x10 ; mov ebx, dword ptr [ebp - 4] ; leave ; ret
+0x0000064b : mov byte ptr [ebx + 0x2c], 1 ; mov ebx, dword ptr [ebp - 4] ; leave ; ret
+
+Unique gadgets found: 4

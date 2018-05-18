@@ -1,0 +1,7 @@
+Options().fullFunctionReuse(): Filtered out 220 gadgets.
+Gadgets information
+============================================================
+0x000007c1 : mov eax, dword ptr [esp] ; ret
+0x0000069c : mov edx, dword ptr [esp] ; ret
+
+Unique gadgets found: 2

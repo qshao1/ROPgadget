@@ -1,0 +1,9 @@
+Options().fullFunctionReuse(): Filtered out 1554 gadgets.
+Gadgets information
+============================================================
+0x0000000000001340 : lea r10d, dword ptr [rdi + 0xb] ; lea eax, dword ptr [rsi + 0xb] ; mov al, byte ptr [rdx + rax] ; cmp byte ptr [rdx + r10], al ; je 0x1367 ; seta al ; ret
+0x0000000000007280 : lea rax, qword ptr [rip + 0xa989] ; ret
+0x0000000000007600 : mov dword ptr [rdi + 0x284], 0 ; mov dword ptr [rdi + 0x280], 0 ; ret
+0x0000000000010084 : sub rsp, 8 ; add rsp, 8 ; ret
+
+Unique gadgets found: 4

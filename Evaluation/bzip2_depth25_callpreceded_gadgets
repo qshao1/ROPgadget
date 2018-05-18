@@ -1,0 +1,16 @@
+Options().callPrecededGadgets(): Filtered out 1547 gadgets.
+Gadgets information
+============================================================
+0x00000000000010ba : add rsp, 8 ; ret
+0x000000000000731c : mov eax, dword ptr [rsp + 0xc] ; test eax, eax ; mov eax, 0xffffffff ; cmovne ebx, eax ; add rsp, 0x10 ; mov eax, ebx ; pop rbx ; ret
+0x000000000000519d : mov qword ptr [rbx + 0x30], 0 ; xor eax, eax ; add rsp, 8 ; pop rbx ; pop rbp ; ret
+0x000000000000327b : mov qword ptr [rbx + 8], rax ; mov rax, rbp ; add rsp, 0x18 ; pop rbx ; pop rbp ; ret
+0x0000000000003fe9 : nop dword ptr [rax] ; mov byte ptr [rip + 0x211b13], 1 ; add rsp, 0x90 ; pop rbx ; ret
+0x0000000000001fba : nop word ptr [rax + rax] ; pop rbp ; ret
+0x0000000000002048 : pop rbp ; mov byte ptr [rip + 0x212d98], 1 ; ret
+0x0000000000005048 : test al, al ; jne 0x5043 ; mov ebp, 0xfffffffe ; add rsp, 8 ; mov eax, ebp ; pop rbx ; pop rbp ; ret
+0x00000000000072df : test dword ptr [rsp + 0xc], 0xfffffffb ; mov edx, 0xffffffff ; cmovne eax, edx ; add rsp, 0x18 ; ret
+0x00000000000070e4 : test eax, eax ; mov r15d, eax ; je 0x7118 ; add rsp, 0x58 ; mov eax, r15d ; pop rbx ; pop rbp ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+0x00000000000071e4 : test eax, eax ; mov r15d, eax ; je 0x7218 ; add rsp, 0x58 ; mov eax, r15d ; pop rbx ; pop rbp ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+
+Unique gadgets found: 11

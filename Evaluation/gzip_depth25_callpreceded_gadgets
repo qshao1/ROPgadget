@@ -1,0 +1,19 @@
+Options().callPrecededGadgets(): Filtered out 1681 gadgets.
+Gadgets information
+============================================================
+0x000000000000c930 : add eax, ebx ; mov dword ptr [rbp - 0x14], eax ; mov eax, dword ptr [rbp - 0x14] ; add rsp, 0x18 ; pop rbx ; pop rbp ; ret
+0x00000000000019ca : add rsp, 8 ; ret
+0x000000000000c948 : mov dword ptr [rip + 0x207d02], 0 ; nop ; pop rbp ; ret
+0x000000000000c95e : mov dword ptr [rip + 0x207f04], 0 ; mov dword ptr [rip + 0x207efe], 0 ; nop ; pop rbp ; ret
+0x000000000000be8f : mov eax, 0 ; add rsp, 0x38 ; pop rbx ; pop rbp ; ret
+0x000000000000a52a : mov eax, 0 ; lea rsp, qword ptr [rbp - 0x10] ; pop rbx ; pop r12 ; pop rbp ; ret
+0x00000000000086e6 : mov eax, dword ptr [rbp - 0xc] ; lea edx, dword ptr [rax - 1] ; mov dword ptr [rbp - 0xc], edx ; test eax, eax ; jne 0x86b7 ; nop ; leave ; ret
+0x000000000000cb27 : mov eax, dword ptr [rip + 0x207d43] ; test eax, eax ; je 0xcaff ; mov eax, 0 ; leave ; ret
+0x00000000000025f8 : mov eax, dword ptr [rip + 0x20edfa] ; leave ; ret
+0x000000000000b004 : mov rax, qword ptr [rbp - 8] ; leave ; ret
+0x000000000000a7a0 : mov rax, qword ptr [rip + 0x24f219] ; mov qword ptr [rip + 0x20a582], rax ; mov eax, 0 ; leave ; ret
+0x00000000000084f2 : mov word ptr [rip + 0x20be79], 0 ; mov dword ptr [rip + 0x20be73], 0 ; nop ; pop rbp ; ret
+0x0000000000001d5a : nop word ptr [rax + rax] ; pop rbp ; ret
+0x0000000000001de8 : pop rbp ; mov byte ptr [rip + 0x20f5d8], 1 ; ret
+
+Unique gadgets found: 14

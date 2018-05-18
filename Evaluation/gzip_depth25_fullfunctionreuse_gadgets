@@ -1,0 +1,6 @@
+Options().fullFunctionReuse(): Filtered out 1694 gadgets.
+Gadgets information
+============================================================
+0x000000000000cbf0 : sub rsp, 8 ; add rsp, 8 ; ret
+
+Unique gadgets found: 1
